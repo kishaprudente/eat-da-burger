@@ -5,8 +5,7 @@
 <ul>
     {{#each burgers}}
     {{#unless devoured}}
-    {{!-- {{> cats/cat-block sleep=true}} --}}
-    {{!-- delete button here --}}
+    {{> burger/burger-block devour=true}}
     {{/unless}}
     {{/each}}
 </ul>
@@ -16,8 +15,7 @@
 <ul>
     {{#each burgers}}
     {{#if devoured}}
-    {{!-- {{> cats/cat-block sleep=false}} --}}
-    {{!-- delete button here --}}
+    {{> burger/burger-block devour=false}}
     {{/if}}
     {{/each}}
 </ul>
