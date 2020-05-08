@@ -18,3 +18,7 @@ ul {
   position: relative;
   float: right;
 }
+
+.container {
+  justify-content: center;
+}
