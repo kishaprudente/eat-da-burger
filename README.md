@@ -1,6 +1,6 @@
 # eat-da-burger
 
-Add burgers and devour them!
+Add your favorite burgers and devour them!
 Developed with Handlebars and MySQL.
 
 ## Table of Contents
